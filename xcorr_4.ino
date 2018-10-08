@@ -21,15 +21,7 @@ double sumSirenSquare = 0.00;
 double siren[7] = {0.1, 0.2, -0.1, 4.1, -2.0, 1.5, -0.1}; //test but not going to work with unsigned long
 double newSiren[13];
 
-long sumPolicePursuitVolts = 0.0;
-long sumPolicePursuitFreqs = 0.0;
-double policePursuitVolts[100];
-double policePursuitFreqs[32];
 
-long sumFireAlarmVolts = 0.0;
-long sumFireAlarmFreq = 0.0;
-double fireAlarmVolts[100];
-double fireAlarmFreqs[32];
 
 //Fill the array that store the input and will be use for shifting
 double input[7] = {0.1, 4.0, -2.2, 1.6, 0.1, 0.1, 0.2}; //test but not going to work with unsigned long
